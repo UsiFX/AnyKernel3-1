@@ -4,16 +4,16 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=eun kernel for realme C25s
+kernel.string=eun kernel for realme C25 Series
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=RMX3195
-device.name2=RMX3197
-device.name3=
-device.name4=
+device.name1=RMX3191
+device.name2=RMX3193
+device.name3=RMX3195
+device.name4=RMX3197
 device.name5=
 supported.versions=
 supported.patchlevels=
