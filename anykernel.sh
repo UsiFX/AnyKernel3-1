@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=eun kernel for realme moon
+kernel.string=Moonlightkernel for realme narzo 20 and narzo 30A (moon)
 do.devicecheck=1
 do.modules=0
 do.systemless=1
