@@ -14,7 +14,7 @@ device.name1=RMX3191
 device.name2=RMX3193
 device.name3=RMX3195
 device.name4=RMX3197
-device.name5=
+device.name5=moon
 supported.versions=
 supported.patchlevels=
 '; } # end properties
