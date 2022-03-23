@@ -4,16 +4,16 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Gear Kernel for Samsung Galaxy M20 (m20lte)
+kernel.string=Gear Kernel for Samsung Galaxy M30 (m30lte)
 do.devicecheck=0
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=m20lte
-device.name2=M20
-device.name3=m20
-device.name4=M20LTE
+device.name1=m30lte
+device.name2=M30
+device.name3=m30
+device.name4=M30LTE
 device.name5=
 supported.versions=
 supported.patchlevels=
