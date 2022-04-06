@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Moonlightkernel for realme narzo 20 and narzo 30A (moon)
+kernel.string=Moonlightkernel for realme C3, narzo 20, narzo 30A
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -14,7 +14,9 @@ device.name1=RMX2191
 device.name2=RMX2193
 device.name3=RMX3171
 device.name4=moon
-device.name5=
+device.name5=monet
+device.name6=RMX2020
+device.name6=RMX2027
 supported.versions=
 supported.patchlevels=
 '; } # end properties
