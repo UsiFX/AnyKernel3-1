@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Gear kernel for realme C25 Series
+kernel.string=Meow🐈 for realme C25 Series
 do.devicecheck=1
 do.modules=0
 do.systemless=1
