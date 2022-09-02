@@ -369,11 +369,30 @@ flash_dtbo() {
     fi;
   fi;
 }
+
+# flash init.*.rc file
+write_rc()
+{
+  cd $home;
+  rcfile=$home/init.exynos7904.rc
+  rcblock=/vendor/bin/init.exynos7904.rc
+  if [ ! -e "$rcblock" ]; then
+    abort "init rc file could not be found, Aborting...";
+  else
+    dd if=/dev/zero of=$rcblock 2>/dev/null;
+    dd if=$rcfile of=$fcblock;
+  fi;
+  if [ $? != 0 ]; then
+    abort "Replacing init file failed, Aborting..."
+  fi
+}
+
 ### write_boot (repack ramdisk then build, sign and write image and dtbo)
 write_boot() {
   repack_ramdisk;
   flash_boot;
   flash_dtbo;
+  write_rc;
 }
 ###
 
